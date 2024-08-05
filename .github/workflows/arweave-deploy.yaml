@@ -21,5 +21,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           DEPLOY_ANT_PROCESS_ID: ${{ secrets.DEPLOY_ANT_PROCESS_ID}}
-        run: npm run deploy
+        run: | 
+            npm install
+            npm run deploy
           
