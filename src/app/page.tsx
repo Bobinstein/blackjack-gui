@@ -156,7 +156,7 @@ export default function Home() {
     <div className={styles.container}>
       <Header />
       <main className={styles.main}>
-        <h1 className={styles.title}>Blackjack: Sponsored by <a className={styles.hlink} href='https://sarcophagus.io/'>Sarcophagus.io</a></h1>
+        <h1 className={styles.title}>Blackjack: Sponsored by <a className={styles.hlink} target='_blank' href='https://sarcophagus.io/'>Sarcophagus.io</a></h1>
         {!walletAddress ? (
           <p>Please connect your ArConnect wallet</p>
         ) : (

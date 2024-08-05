@@ -9,17 +9,23 @@ export default function About() {
       <Header />
       <main className={styles.main}>
         <h1>About AO Blackjack</h1>
-        <p>Welcome to AO Blackjack, the decentralized blackjack game built on the Arweave blockchain.</p>
-        <p>Our game is designed to provide a fun and educational experience, teaching players about various topics including evolutionary biology, mycology, and herbology, through an engaging gameplay experience.</p>
+        <p>Welcome to AO Blackjack, the decentralized blackjack game built on ao.</p>
+        <p>Our game is designed to provide a fun and interactive way to showcase the possibilities of decentralized compute with ao, which is built on the Arweave blockweave.</p>
         <h2>Features</h2>
         <ul>
           <li>Decentralized and secure gameplay</li>
-          <li>Educational content integrated into the game</li>
+          <li>Every action and response is an ao message, allowing full transparency in gameplay</li>
           <li>Various in-game tokens to enhance the experience</li>
-          <li>Interactive and user-friendly interface</li>
+          <li>Simple and user-friendly interface</li>
+        </ul>
+        <br />
+        <h1>Sponsors</h1>
+        <ul>
+          <li><a className={styles.hlink} href='https://sarcophagus.io/' target='_blank' >Sarcophagus.io</a></li>
         </ul>
         <h2>About Sarcophagus.io</h2>
-        <p>Sarcophagus.io is a proud sponsor of AO Blackjack. Sarcophagus is a decentralized dead man's switch application built on Ethereum and Arweave. It allows users to securely store and transfer data in a trustless manner.</p>
+        <p>Sarcophagus is a decentralized dead man&apos;s switch application built on Ethereum and Arweave. It is a switch designed to be activated or deactivated if the human operator becomes incapacitated, such as through death, loss of consciousness, or being bodily removed from control.</p>
+        <p>Sarcophagus sponsored AO Blackjack to help show off the power of ao.</p>
       </main>
     </div>
   );
