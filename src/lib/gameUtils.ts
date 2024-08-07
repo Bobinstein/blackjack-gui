@@ -188,7 +188,9 @@ export const handleDoubleDown = async (
       data: "Double Down Blackjack Game",
     }).then(refreshGameState);
 
-    refreshGameState();
+   refreshGameState()
+   
+   refreshGameState();
   } catch (error) {
     console.error("Failed to double down:", error);
   }
@@ -220,6 +222,8 @@ export const handleSplit = async (
     }).then(refreshGameState);
 
     refreshGameState();
+
+    refreshGameState()
   } catch (error) {
     console.error("Failed to split:", error);
   }
@@ -251,6 +255,8 @@ export const handleInsurance = async (
     }).then(refreshGameState);
 
     refreshGameState();
+
+    refreshGameState()
   } catch (error) {
     console.error("Failed to place insurance bet:", error);
   }
